@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Assets/Css/Index.css">
+    <link rel="stylesheet" href="Assets/Css/login.css">
+    <link rel="stylesheet" href="Assets/Css/registrar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Belleza&family=Gudea&family=Habibi&family=Hanuman:wght@100&family=Inder&family=Inika&family=Inria+Serif:wght@300&family=Inter:wght@200&family=Philosopher&display=swap" rel="stylesheet">
+    <title>Index</title>
+</head>
+<body>
+    <header id="header">
+        <a href="" id="logo_img"><img src="Assets/IMG/logo-removebg-preview.png" alt="" class="imgLogo"></a>
+        <a href="" id="logo_letra" class="logo">PASTRY</a>
+        <nav>
+        <ul>
+            <li><a href="#header"  id="InicioBtn" class="botonNav">Inicio</a></li>
+            <li><a href="#¿Quienes?" id="QuienesBtn" class="botonNav">¿Quienes Somos?</a></li>
+            <li><a href="#Nuestra" id="ProducBtn" class="botonNav">Productos</a></li>
+            <li><a href="#footer" id="ContactosBtn" class="botonNav">Contactos</a></li>
+        </ul>
+        <div class="container_boton">
+          <ul>
+            <li><a id="LoginBtn" class="botonNavIm" href="#">LOGIN</a></li>
+            <li><a id="registrarBtn" href="#" class="botonNavIm">REGISTRARSE</a></li>
+        </ul>
+        </div>
+        </nav>
+        </header>
+        <section class="zona1">
+          <div class="container_img_eslogan">
+            <div class="container_titulo"><h1 class="Titulo_eslogan">PASTRY</h1></div>
+            <h2 class="eslogan">Endulza tu vida con postres</h2>
+          </div>
+        </section>
+
+        <div class="container" id="¿Quienes?">
+            <div >
+              <h1>¿Quiénes Somos?</h1>
+              <p>Bienvenido a nuestra pastelería, donde los sueños
+                se convierten en dulces realidades. Nos especializamos
+                en la creación de pasteles personalizados, diseñados con amor y atención a cada detalle. </p>
+            </div>
+            <img class="image" src="Assets/IMG/pasteles.jpg" alt="Imagen de la empresa">
+          </div>
+
+          <div id="loginModal" class="modal">
+            <div class="modal-content">
+              <span class="close-btn">&times;</span>
+              <div class="vector1"><img src="Assets/IMG/vector_login1.jpg"  alt=""></div>
+              <div class="vector2"><img src="Assets/IMG/vector_login2.jpg"  alt=""></div>
+                <img src="Assets/IMG/logo-removebg-preview.png" class="imglogoLogin">
+            <form id="formLogin">
+            <label class="input-container">
+                <img src="Assets/IMG/usuario (1).png" class="icon_login">
+                <input type="text" placeholder="USUARIO" id="user">
+            </label>
+            <br>
+            <label class="input-container">
+              <img src="Assets/IMG/candado.png" class="icon_login2">
+                <input type="password" placeholder="CONTRASEÑA" id="contra">
+            </label>
+            <br>
+            <div class="container_mensaje" id="Mensi">
+              <h3 id="MensajeLogin"></h3>  
+            </div>
+            <div class="contaner_boton_login">
+              <a href="">¿Se te olvido la Contraseña?</a>
+              <button type="submit" id="Ingresar">INGRESAR</button>
+              
+            </div>
+            </form>
+            <div class="vector3"><img src="Assets/IMG/vector_login3.png"  alt=""></div>
+        </div>
+        </div>
+        <center>
+        <div id="modalContainer">
+            <div id="modalContent">
+              <img src="Assets/IMG/vector_registrar1.png" class="vector_re1">
+              <img src="Assets/IMG/vectores_registrar2.png" class="vector_re2">
+              <img src="Assets/IMG/vector_registrar3.png" class="vector_re3">
+              <form id="registroForm">
+                <img src="Assets/IMG/avatar_user-removebg-preview.png" alt="Imagen de Registro" id="userAvatar">
+                <br>
+                <br>
+                <label for="usuario"></label>
+                <input type="text" class="regis_input" id="usuario" placeholder="User">
+                <label for="nombre"></label>
+                <input type="text" class="regis_input" id="nombre" placeholder="Nombre">
+                <label for="correo"></label>
+                <input type="email" class="regis_input" id="correo" placeholder="Correo">
+                <label for="tel"></label>
+                <input type="tel" class="regis_input" id="tel" placeholder="Teléfono">
+                <label for="fechaNac"></label>
+                <input type="date" class="regis_input" id="fechaNac" placeholder="Fecha de Nacimiento">
+                <label for="cedula"></label>
+                <input type="text" class="regis_input" id="cedula" placeholder="Cédula">
+                <label for="direccion"></label>
+                <input type="text" class="regis_input" id="direccion" placeholder="Dirección">
+                <label for="clave"></label>
+                <input type="password" class="regis_input" id="clave" placeholder="Clave">
+                <br>
+                <button type="submit">REGISTRARSE</button>
+              </form>     
+            </div>
+          </div>
+        </center>
+      </div>
+      <div class="container-wrapper" id="Nuestra">
+        <div class="container1">
+          <img src="Assets/IMG/img2.jpg" alt="Imagen 1">
+          <p>Nuestra pasion por la reposteria se refleja en cada bocado, con una combinacion perfecta de sabores exquisitos y una precentacion impecable</p>
+        </div>
+      
+        <div class="container1">
+          <img src="Assets/IMG/img1.jpg" alt="Imagen 2">
+          <p>Descubre una experiencia unica en nuetra pasteleria, donde la creatividad y la exelencia se encuentran en cada delicioso bocado</p>
+        </div>
+      </div>
+      <footer id="footer">
+        <div class="footer-section">
+          <h3>Creadores del Sitio</h3>
+          <h3>@Julian_Peralta , @Danielo_Dias</h3>
+          <h3>@Julian_Rubio , @Santiago_Valbuena</h3>
+          <br>
+          <h3>Julianperalta1306@gmail.com</h3>
+          <h3>Telefono:3255355</h3>
+        </div>
+        <div class="footer-section">
+          
+          <div class="social-icons">
+            <!-- Agrega iconos de redes sociales con imágenes más pequeñas -->
+            <a href="https://www.instagram.com/"><img src="Assets/IMG/Instagram.png" alt="Instagram"></a>
+            <a href="https://www.facebook.com/"><img src="Assets/IMG/Facebook.png" alt="Facebook"></a>
+            <a href="https://web.whatsapp.com/"><img src="Assets/IMG/whasapp.png" alt="WhatsApp"></a>
+          </div>
+        </div>
+        <div class="footer-section">
+          <h3>Ubicanos</h3>
+          <a href="https://maps.google.com/"><img src="Assets/IMG/ubicacion.PNG" alt="Ubicación"></a>
+        </div>
+      </footer>
+      </div>
+          
+</body>
+<script src="Assets/Js/login.js"></script>
+<script src="Assets/Js/registrar.js"></script>
+<script src="Assets/Js/trasnsition.js"></script>
+<script src="Assets/Js/index.js"></script>
+</html>

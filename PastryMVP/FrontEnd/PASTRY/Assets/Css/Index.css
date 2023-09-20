@@ -1,0 +1,256 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+ 
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    transition: 0.7s;
+    padding: 30px 20x;  
+    z-index: 10;
+}
+
+header.abajo{
+    background: #fff;
+    padding: 15px 20px; 
+}
+
+nav{
+  margin-left: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .logo{
+    display: none;
+    margin-top: 0.7rem;
+    position: relative;
+    margin-left: 8px;
+    left: 0;
+    position: absolute;
+    color: black;
+    font-weight: bold;
+    font-size: 2em;
+    transition: 1.5s;
+    text-decoration: none;
+}
+.imgLogo{
+  width:100px;
+  margin-left: 8px;
+  left: 0;
+  position: absolute;
+}
+
+header ul{
+    margin-right: 25px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li {
+    list-style: none;
+}
+
+.botonNav{
+    position: relative;
+    font-family: 'Inter', sans-serif;
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    letter-spacing: 2px;
+    transition: 0.7s;
+    font-size: 16px;
+}
+
+.BotonClik{
+    font-size: 13px;
+    font-family: 'Philosopher', serif;
+    border-bottom: 2px solid #fff;
+}
+
+.botonNavIm{
+  position: relative;
+  font-family: 'Inter', sans-serif;
+  text-decoration: none;
+  color: white;
+  transition: 0.7s;
+  border: 1px solid #fff;
+  margin-right: 1.5rem;
+  padding: 5px;
+}
+
+.zona1{
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    background: url(../IMG/Menu.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.container_img_eslogan{
+  position: relative;
+  top: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container_titulo{
+  width: 800px;
+  height: 200px;
+  border-bottom: 3px solid #fff;
+  text-align: center;
+}
+.Titulo_eslogan{
+  font-family:'Belleza', sans-serif;
+  color: #fff;
+  font-size: 8rem;
+  position: relative;
+  top: -60px;
+}
+.eslogan{
+  font-family: 'Hanuman', serif;
+  font-size: 2rem;
+  color: #fff;
+  position: relative;
+  top: -20px;
+}
+header.abajo .logo, 
+header.abajo ul li a{
+    color: #000;
+}
+
+.container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+.container h1{
+  font-family: 'Habibi', serif;
+  font-size: 2.5rem;
+}
+.container p{
+  font-family: 'Inria Serif', serif;
+  font-size: 1.5rem;
+}
+.image{
+    width: 350px;
+    margin-left: 25px;
+    margin-right: 45px;
+    border-radius: 5px;
+}
+
+.nav-bar ul{
+    display: flex
+}
+.container-wrapper {
+  display: flex; 
+  justify-content: space-between; 
+}
+/* Estilos para los contenedores */
+.container1 {
+  display: flex;
+  flex-direction: row; /* Cambiamos la dirección de flexión para que estén en fila */
+  align-items: center; /* Centramos verticalmente el contenido */
+  width: 42%;
+  margin: 29px;
+  padding: 26px;
+  border: 1px solid #ccc;
+  background-color: #9b9b9b;
+  text-align: center;
+  border-radius: 5px;
+}
+.container1 p{
+  font-family: 'Inika', serif;
+}
+/* Estilos para las imágenes dentro de los contenedores */
+.container1 img {
+  max-width: 50%; /* Reducimos el ancho de la imagen para dejar espacio al texto */
+  height: auto; /* La altura se ajustará automáticamente para mantener la proporción original */
+  margin-right: 20px; /* Añadimos un margen a la derecha de la imagen para separarla del texto */
+}
+/* Estilos para el texto dentro de los contenedores */
+.container1 p {
+  flex: 1; /* El texto ocupará todo el espacio disponible restante */
+  text-align: left; /* Alineamos el texto a la izquierda */
+  font-size: 18px; /* Puedes ajustar el tamaño de fuente según tus preferencias */
+}
+
+
+/* Estilos generales para el footer */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Para alinear verticalmente en el centro */
+}
+
+/* Estilos para cada sección del footer */
+.footer-section {
+  flex: 1;
+  text-align: center;
+}
+
+/* Estilos para los iconos de redes sociales */
+.social-icons a {
+  display: inline-block; /* Hacer que los iconos estén en línea horizontal */
+  margin-right: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+/* Estilos para los iconos de redes sociales más pequeños */
+.social-icons img {
+  width: 93px;
+  height: 69px;
+}
+
+/* Estilos para los títulos de sección */
+.footer-section h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+
+
+.container {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+  }
+  
+  .content {
+    flex: 1;
+  }
+  
+  h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-family: 'Playfair Display', serif;
+  }
+  
+  p {
+    font-size: 27px;
+    color: #000000;
+    font-family: 'Playfair Display', serif;
+  }
+
+  /* Estilos para la imagen dentro de la sección de ubicación */
+.footer-section img {
+  max-width: 69%;
+  height: auto;
+  border-radius: 10px; /* Agrega bordes redondeados */
+}
+
+
+

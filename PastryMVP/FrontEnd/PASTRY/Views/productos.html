@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../Assets/Css/productos.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Belleza&family=Gudea&family=Habibi&family=Hanuman:wght@100&family=Inder&family=Inika&family=Inria+Serif:wght@300&family=Inter:wght@400;700&family=Philosopher&display=swap" rel="stylesheet">
+  <title>Pasteleria</title>
+</head>
+   <body>
+    <header>
+        <img src="../Assets/IMG/logo-removebg-preview.png" class="logo">
+      <div class="user_and_button">
+        <img src="../Assets/IMG/usuario_miPerfil_nav.png">
+        <button class="button_cerrar">CERRAR</button>
+      </div>
+    </header>
+    <main>
+      <div id="container_modal2">
+        <div  id="modal2">
+          <div class="tus_productos">
+            <h1>Tus productos</h1>
+          </div>
+          <button class="close" id="cerrarModal2"><img src="../Assets/IMG/cerrar-sesion.png" alt="" class="close-icon"></button>
+          <button class="pagar"><h1>Pagar</h1><img src="../Assets/IMG/metodo-de-pago.png" class="icon_dinero"></button>
+          <div class="prodcutos_selecionados">
+            <div class="barra">
+              <img src="../Assets/IMG/descarga.jpg" alt="" class="img_tus">
+              <div class="text_producto">
+                <h1>Nombre</h1>
+                <h2>$Precio</h2>
+                <h3>Cantidad</h3>
+                <p>Un producto con descripcion</p>  
+              </div>
+              <button class="eliminar"><img src="../Assets/IMG/tacho-de-basura.png" alt="" class="img_eliminar"></button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container_busqueda">
+        <h1>PASTELES DISPONIBLES</h1>
+        <form action="">
+          <input type="text"  id="barra_busqueda" placeholder="Busca tu pastel preferido" class="busqueda">  
+          <button type="submit" class="boton_enviar"><img src="../Assets/IMG/lupa.png" class="img_lupa"></button>
+        </form>
+        <button class="boton_carrito" id="abrirModal2"><img src="../Assets/IMG/carrito-de-compras.png" alt="" class="img_carro"></button>
+        <button class="boton_carrito3"><img src="../Assets/IMG/pastel.png" alt="" class="img_carro3"></button>
+        <h3>Personaliza tu pastel aqui</h3>
+      </div>
+      <div class="container_productos" id="container_cards_productos"></div>
+      <div class="modal2" id="modal3"></div>
+    </main>
+    <footer>
+      <h1>@Julian Peralta @Daniel Diaz @Santiago Piza @Sergio Valbuena</h1>
+    </footer>
+   </body>
+   <script src="../Assets/Js/productos.js"></script>
+</html>

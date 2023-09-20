@@ -1,0 +1,90 @@
+
+  #modalContainer {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    display: none;
+    overflow: auto;
+  }
+  #modalContent {
+    margin-top:5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #959595;
+    padding: 20px;
+    border-radius: 18px;
+    width: 19rem;
+    height: 30rem;
+  }
+  #registroForm img {
+    margin-top: 2%;
+    width: 120px;
+  }
+  #registroForm{
+    position: relative;
+    top: -10px;
+  }
+
+  #registroForm input::placeholder{
+    color:  #ffffff;
+  }
+
+  #registroForm label {
+    color: #8C8C8C;
+    display: none;
+  }
+
+  .regis_input{
+  color: #FFF;
+  padding:5px;
+  background-color:#5A5A5A;
+  border: none;
+  border-radius: 15px;
+  width: 13rem;
+  padding: 5px;
+  text-align: center;
+  height: 20px;
+  margin-bottom: 10px;
+  }
+  .regis_input::placeholder{
+    text-align: center;
+    position: relative;
+    left: 0px;
+    font-size: 18px;
+    font-family: 'Inter',sans-serif;
+  }
+  #registroForm button {
+    background-color: #ffffff;
+    width: 44%;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-left: 4%;
+  }
+.vector_re1{
+  width: 100px;
+  position: absolute;
+  top: 83px;
+  left: 740px;
+}
+.vector_re2{
+  width: 100px;
+  position: absolute;
+  top:17rem;
+  right: 47rem;
+}
+.vector_re3{
+  width: 100px;
+  position: absolute;
+  top: 28.4rem;
+  right: 46rem;
+}
+
